@@ -1,0 +1,4116 @@
+{
+  "version": "1.2.0",
+  "generatedAt": "2026-02-02T04:24:29.108Z",
+  "stats": {
+    "totalAttempted": 101,
+    "totalGenerated": 100,
+    "brandViolations": 13,
+    "averageDiversity": 0.6114761188050604,
+    "templateDistribution": {
+      "brand-voice": 13,
+      "ritual-summons": 11,
+      "partnership-outreach": 12,
+      "launch-campaign": 11,
+      "strain-origin": 15,
+      "thought-leadership": 12,
+      "product-desc": 13,
+      "testimonial-framework": 13
+    },
+    "generationTime": 40
+  },
+  "diversity": {
+    "overall": 0.6114761188050604,
+    "dimensions": {
+      "lexical": 0.41172736306746094,
+      "semantic": 0.7784778080447186,
+      "structural": 0.9977283846950463,
+      "intensity": 0.7066666666666666,
+      "categorical": 0.1448275862068966
+    },
+    "analysis": {
+      "uniqueWordRatio": 0.11634904714142427,
+      "categoryCoverage": 2.1,
+      "intensityDistribution": {
+        "subtle": 0.04,
+        "moderate": 0.44,
+        "intense": 0.52,
+        "balance": 0.52
+      },
+      "templateUtilization": {
+        "brand-voice": 13,
+        "ritual-summons": 11,
+        "partnership-outreach": 12,
+        "launch-campaign": 11,
+        "strain-origin": 15,
+        "thought-leadership": 12,
+        "product-desc": 13,
+        "testimonial-framework": 13
+      },
+      "tagDiversity": 0.3663883089770355
+    },
+    "recommendations": [
+      "Increase vocabulary variation: more synonyms, less template repetition",
+      "Add more subtle intensity prompts for balance",
+      "Explore more category values: current selection is narrow"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "pf-1770006268949-0000",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Alchemist archetype while maintaining street grit × temple reverence tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Alchemist archetype while maintaining street grit × temple reverence tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Alchemist",
+        "contrast": "street grit × temple reverence",
+        "origin": "Andean"
+      },
+      "tags": [
+        "transformation",
+        "knowledge",
+        "craft",
+        "origin",
+        "elevation",
+        "inca",
+        "mountain"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.949Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268951-0001",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a solstice observance—an assembly of collectors of rare expressions.\n\nAdmission requires possession of the seasonal token. Those who gather contribute according to capacity.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a solstice observance—an assembly of collectors of rare expressions.\n\nAdmission requires possession of the seasonal token. Those who gather contribute according to capacity.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a solstice observance",
+        "assembly": "collectors of rare expressions",
+        "credential": "possession of the seasonal token",
+        "price": "Those who gather contribute according to capacity."
+      },
+      "tags": [
+        "seasonal",
+        "astronomical",
+        "ancient",
+        "connoisseur",
+        "wealth",
+        "discerning",
+        "object",
+        "proof",
+        "access",
+        "sliding",
+        "communal",
+        "inclusive"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.951Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268952-0002",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking alignment on standards without compromise.\n\nEstablish credibility through artifacts that speak without explanation.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking alignment on standards without compromise.\n\nEstablish credibility through artifacts that speak without explanation.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "descendants of common lineage",
+        "mutual": "alignment on standards without compromise",
+        "proof": "artifacts that speak without explanation"
+      },
+      "tags": [
+        "heritage",
+        "origin",
+        "connection",
+        "quality",
+        "shared",
+        "excellence",
+        "product",
+        "evidence"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.952Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268952-0003",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Vision quest.\n\nThe artifact is the the Flame—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Vision quest.\n\nThe product is the the Flame—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Flame",
+        "journey": "Vision",
+        "threshold": "the City Gate",
+        "guardian": "A silent figure in obsidian robes"
+      },
+      "tags": [
+        "transformation",
+        "light",
+        "danger",
+        "dream",
+        "prophecy",
+        "seeing",
+        "boundary",
+        "urban",
+        "entry",
+        "mystery",
+        "silent",
+        "watching"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.952Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268952-0004",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Archivist archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Polynesian mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Archivist archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Polynesian mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Archivist",
+        "contrast": "ancient technique × modern precision",
+        "origin": "Polynesian"
+      },
+      "tags": [
+        "preservation",
+        "memory",
+        "lineage",
+        "time",
+        "technology",
+        "ocean",
+        "navigation",
+        "wayfinding"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.952Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268953-0005",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Moroccan Rif, where coastal salt influence shaped its character.\n\na collective bound by oral tradition has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a reputation that precedes it across borders and a nose of diesel and ancient forest\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Moroccan Rif, where coastal salt influence shaped its character.\n\na collective bound by oral tradition has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a reputation that precedes it across borders and a nose of diesel and ancient forest\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Moroccan Rif",
+        "element": "coastal salt influence",
+        "keeper": "a collective bound by oral tradition",
+        "marker": "a reputation that precedes it across borders and a nose of diesel and ancient forest"
+      },
+      "tags": [
+        "north",
+        "hashish",
+        "traditional",
+        "water",
+        "stress",
+        "unique",
+        "community",
+        "secret",
+        "transmission"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.953Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268953-0006",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Moroccan Rif, where ancient river sediment shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a nose of diesel and ancient forest\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Moroccan Rif, where ancient river sediment shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a nose of diesel and ancient forest\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Moroccan Rif",
+        "element": "ancient river sediment",
+        "keeper": "a solitary cultivator on a terraced hillside",
+        "marker": "a nose of diesel and ancient forest"
+      },
+      "tags": [
+        "north",
+        "hashish",
+        "traditional",
+        "water",
+        "earth",
+        "history",
+        "isolation",
+        "dedication",
+        "craft",
+        "aroma",
+        "complex",
+        "terpene"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.953Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268953-0007",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for an equinox balance ritual—an assembly of twelve chosen for this season.\n\nAdmission requires a prior invitation. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for an equinox balance ritual—an assembly of twelve chosen for this season.\n\nAdmission requires a prior invitation. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "an equinox balance ritual",
+        "assembly": "twelve chosen for this season",
+        "credential": "a prior invitation",
+        "price": "The exchange is measured in attention, not currency."
+      },
+      "tags": [
+        "seasonal",
+        "equilibrium",
+        "transition",
+        "limited",
+        "selected",
+        "exclusive",
+        "network",
+        "existing",
+        "trust",
+        "non-monetary",
+        "serious",
+        "commitment"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.953Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268953-0008",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the future of craft in an automated world that reveals consumers are seeking constraint, not infinite choice.\n\nUse the translator who found words that didn't exist as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the future of craft in an automated world that reveals consumers are seeking constraint, not infinite choice.\n\nUse the translator who found words that didn't exist as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the future of craft in an automated world",
+        "revelation": "consumers are seeking constraint, not infinite choice",
+        "parable": "the translator who found words that didn't exist"
+      },
+      "tags": [
+        "technology",
+        "craft",
+        "tension",
+        "choice",
+        "paradox",
+        "design",
+        "language",
+        "creation",
+        "bridge"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.953Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268954-0009",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a limited release cultivar that transcends the ordinary. \n\nThe narrative should evoke nocturnal vigilance and social elevation through volcanic earth and lunar silver visual language. \n\nSpeak directly to the curious initiate. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a limited release cultivar that transcends the ordinary. \n\nThe narrative should evoke nocturnal vigilance and social elevation through volcanic earth and lunar silver visual language. \n\nSpeak directly to the curious initiate. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "limited release cultivar",
+        "mood": "nocturnal vigilance and social elevation",
+        "aesthetic": "volcanic earth and lunar silver",
+        "audience": "the curious initiate",
+        "ritual": "Position as social bonding ceremony"
+      },
+      "tags": [
+        "cannabis",
+        "exclusive",
+        "flower",
+        "newcomer",
+        "learning",
+        "open",
+        "connection",
+        "community"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.954Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268954-0010",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as those who serve the same audience differently seeking alignment on standards without compromise.\n\nEstablish credibility through testimony of those who vouch without prompting.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as those who serve the same audience differently seeking alignment on standards without compromise.\n\nEstablish credibility through testimony of those who vouch without prompting.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "those who serve the same audience differently",
+        "mutual": "alignment on standards without compromise",
+        "proof": "testimony of those who vouch without prompting"
+      },
+      "tags": [
+        "complementary",
+        "market",
+        "shared",
+        "quality",
+        "excellence",
+        "referral",
+        "organic",
+        "trust"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.954Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268954-0011",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Return quest.\n\nThe artifact is the the Vessel—an object of power and desire.\nNo guardian—access finds the worthy protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Return quest.\n\nThe product is the the Vessel—an object of power and desire.\nNo guardian—access finds the worthy protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Vessel",
+        "journey": "Return",
+        "threshold": "the City Gate",
+        "guardian": "No guardian—access finds the worthy"
+      },
+      "tags": [
+        "container",
+        "sacred",
+        "holding",
+        "homecoming",
+        "wisdom",
+        "integration",
+        "boundary",
+        "urban",
+        "entry",
+        "merit",
+        "attraction",
+        "selection"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.954Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268954-0012",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining personal ritual × collective experience tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining personal ritual × collective experience tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Sentinel",
+        "contrast": "personal ritual × collective experience",
+        "origin": "Andean"
+      },
+      "tags": [
+        "protector",
+        "vigil",
+        "boundary",
+        "individual",
+        "group",
+        "inca",
+        "mountain",
+        "elevation"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.954Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268955-0013",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a legacy cultivar that transcends the ordinary. \n\nThe narrative should evoke contemplative solitude and confident presence through golden proportion and smoke and shadow visual language. \n\nSpeak directly to the quality obsessive. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a legacy strain that transcends the ordinary. \n\nThe narrative should evoke contemplative solitude and confident presence through golden proportion and smoke and shadow visual language. \n\nSpeak directly to the quality obsessive. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "legacy strain",
+        "mood": "contemplative solitude and confident presence",
+        "aesthetic": "golden proportion and smoke and shadow",
+        "audience": "the quality obsessive",
+        "ritual": "Position as social bonding ceremony"
+      },
+      "tags": [
+        "cannabis",
+        "heritage",
+        "landrace",
+        "perfectionist",
+        "details",
+        "discerning",
+        "connection",
+        "community"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.955Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268955-0014",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on exclusivity without elitism that reveals scarcity of attention matters more than scarcity of artifact.\n\nUse the cartographer who mapped the unprofitable as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on exclusivity without elitism that reveals scarcity of attention matters more than scarcity of product.\n\nUse the cartographer who mapped the unprofitable as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "exclusivity without elitism",
+        "revelation": "scarcity of attention matters more than scarcity of product",
+        "parable": "the cartographer who mapped the unprofitable"
+      },
+      "tags": [
+        "access",
+        "culture",
+        "positioning",
+        "economics",
+        "attention",
+        "shift",
+        "exploration",
+        "value",
+        "different"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.955Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268955-0015",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking collective defense of craft against commodification.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking collective defense of craft against commodification.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "descendants of common lineage",
+        "mutual": "collective defense of craft against commodification",
+        "proof": "specific results for named allies"
+      },
+      "tags": [
+        "heritage",
+        "origin",
+        "connection",
+        "protection",
+        "values",
+        "mission",
+        "case",
+        "referral",
+        "concrete"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.955Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268955-0016",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe artifact is the the Key—an object of power and desire.\nA spoken password in a dead language protects the threshold at the Veil.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe product is the the Key—an object of power and desire.\nA spoken password in a dead language protects the threshold at the Veil.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Key",
+        "journey": "Pilgrimage",
+        "threshold": "the Veil",
+        "guardian": "A spoken password in a dead language"
+      },
+      "tags": [
+        "access",
+        "opening",
+        "exclusive",
+        "sacred",
+        "travel",
+        "transformation",
+        "thin places",
+        "spirit",
+        "perception",
+        "voice",
+        "ancient",
+        "secret"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.955Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268955-0017",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking expanded territory for both traditions.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking expanded territory for both traditions.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "descendants of common lineage",
+        "mutual": "expanded territory for both traditions",
+        "proof": "specific results for named allies"
+      },
+      "tags": [
+        "heritage",
+        "origin",
+        "connection",
+        "growth",
+        "market",
+        "expansion",
+        "case",
+        "referral",
+        "concrete"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.955Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268956-0018",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Forge quest.\n\nThe artifact is the the Vessel—an object of power and desire.\nNo guardian—access finds the worthy protects the threshold at the Mountain Pass.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Forge quest.\n\nThe product is the the Vessel—an object of power and desire.\nNo guardian—access finds the worthy protects the threshold at the Mountain Pass.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Vessel",
+        "journey": "Forge",
+        "threshold": "the Mountain Pass",
+        "guardian": "No guardian—access finds the worthy"
+      },
+      "tags": [
+        "container",
+        "sacred",
+        "holding",
+        "creation",
+        "craft",
+        "trial",
+        "elevation",
+        "test",
+        "view",
+        "merit",
+        "attraction",
+        "selection"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.956Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268956-0019",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the sensory education deficit that reveals consumers are seeking constraint, not infinite choice.\n\nUse the architect who built for the fifth generation as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the sensory education deficit that reveals consumers are seeking constraint, not infinite choice.\n\nUse the architect who built for the fifth generation as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the sensory education deficit",
+        "revelation": "consumers are seeking constraint, not infinite choice",
+        "parable": "the architect who built for the fifth generation"
+      },
+      "tags": [
+        "experience",
+        "learning",
+        "gap",
+        "choice",
+        "paradox",
+        "design",
+        "longterm",
+        "legacy"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.956Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268956-0020",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the disappearance of cultivar knowledge that reveals the metrics we track mislead us about quality.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the disappearance of cultivar knowledge that reveals the metrics we track mislead us about quality.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the disappearance of cultivar knowledge",
+        "revelation": "the metrics we track mislead us about quality",
+        "parable": "the monastery that outlasted empires"
+      },
+      "tags": [
+        "education",
+        "loss",
+        "urgency",
+        "data",
+        "perception",
+        "error",
+        "institution",
+        "time",
+        "stability"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.956Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268956-0021",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Colombian mountains, where intense equatorial sun shaped its character.\n\na family whose name is synonymous with the region has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Colombian mountains, where intense equatorial sun shaped its character.\n\na family whose name is synonymous with the region has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Colombian mountains",
+        "element": "intense equatorial sun",
+        "keeper": "a family whose name is synonymous with the region",
+        "marker": "a genetic lineage traced to pre-prohibition"
+      },
+      "tags": [
+        "elevation",
+        "equatorial",
+        "rich",
+        "fire",
+        "light",
+        "power",
+        "legacy",
+        "family",
+        "reputation",
+        "history",
+        "authentic",
+        "rare"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.956Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268956-0022",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a single-origin concentrate that transcends the ordinary. \n\nThe narrative should evoke sensory heightening and social elevation through temple geometry and golden proportion visual language. \n\nSpeak directly to the story collector. Frame as restoration protocol.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a single-origin concentrate that transcends the ordinary. \n\nThe narrative should evoke sensory heightening and social elevation through temple geometry and golden proportion visual language. \n\nSpeak directly to the story collector. Frame as restoration protocol.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "single-origin concentrate",
+        "mood": "sensory heightening and social elevation",
+        "aesthetic": "temple geometry and golden proportion",
+        "audience": "the story collector",
+        "ritual": "Frame as restoration protocol"
+      },
+      "tags": [
+        "cannabis",
+        "extraction",
+        "premium",
+        "narrative",
+        "history",
+        "meaning",
+        "recovery",
+        "self-care"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.956Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0023",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a small-batch infusion that transcends the ordinary. \n\nThe narrative should evoke confident presence and restorative stillness through desert noir and marble veining visual language. \n\nSpeak directly to the ritual keeper. Describe as sensory calibration ritual.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a small-batch infusion that transcends the ordinary. \n\nThe narrative should evoke confident presence and restorative stillness through desert noir and marble veining visual language. \n\nSpeak directly to the ritual keeper. Describe as sensory calibration ritual.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "small-batch infusion",
+        "mood": "confident presence and restorative stillness",
+        "aesthetic": "desert noir and marble veining",
+        "audience": "the ritual keeper",
+        "ritual": "Describe as sensory calibration ritual"
+      },
+      "tags": [
+        "cannabis",
+        "edible",
+        "craft",
+        "ceremony",
+        "practice",
+        "discipline",
+        "perception",
+        "awareness"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0024",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the sensory education deficit that reveals scarcity of attention matters more than scarcity of artifact.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the sensory education deficit that reveals scarcity of attention matters more than scarcity of product.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the sensory education deficit",
+        "revelation": "scarcity of attention matters more than scarcity of product",
+        "parable": "the monastery that outlasted empires"
+      },
+      "tags": [
+        "experience",
+        "learning",
+        "gap",
+        "economics",
+        "attention",
+        "shift",
+        "institution",
+        "time",
+        "stability"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0025",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the first encounter with true quality leading to from solitary use to ceremonial practice.\n\nThe setting/context: restoration after extended demand\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the first encounter with true quality leading to from solitary use to ceremonial practice.\n\nThe setting/context: restoration after extended demand\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the first encounter with true quality",
+        "transformation": "from solitary use to ceremonial practice",
+        "setting": "restoration after extended demand"
+      },
+      "tags": [
+        "discovery",
+        "comparison",
+        "awakening",
+        "ritual",
+        "intention",
+        "elevation",
+        "recovery",
+        "self-care",
+        "balance"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0026",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Navigator archetype while maintaining immaculate presentation × raw materials tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Navigator archetype while maintaining immaculate presentation × raw materials tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Navigator",
+        "contrast": "immaculate presentation × raw materials",
+        "origin": "North African"
+      },
+      "tags": [
+        "guidance",
+        "direction",
+        "stars",
+        "finish",
+        "origin",
+        "desert",
+        "berber"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0027",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Alchemist archetype while maintaining scientific rigor × spiritual intuition tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Alchemist archetype while maintaining scientific rigor × spiritual intuition tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Alchemist",
+        "contrast": "scientific rigor × spiritual intuition",
+        "origin": "North African"
+      },
+      "tags": [
+        "transformation",
+        "knowledge",
+        "craft",
+        "mind",
+        "spirit",
+        "desert",
+        "berber",
+        "stars"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268957-0028",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Oaxacan cloud forests, where persistent mountain mist shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Oaxacan cloud forests, where persistent mountain mist shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Oaxacan cloud forests",
+        "element": "persistent mountain mist",
+        "keeper": "a monastery that has grown for centuries",
+        "marker": "silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow"
+      },
+      "tags": [
+        "forest",
+        "mist",
+        "mystery",
+        "water",
+        "air",
+        "cool",
+        "spiritual",
+        "time",
+        "dedication"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.957Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268958-0029",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where diurnal temperature swings shaped its character.\n\na woman who inherited seeds and silence has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where diurnal temperature swings shaped its character.\n\na woman who inherited seeds and silence has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Afghan Hindu Kush",
+        "element": "diurnal temperature swings",
+        "keeper": "a woman who inherited seeds and silence",
+        "marker": "a terpene profile that defines its region and a reputation that precedes it across borders"
+      },
+      "tags": [
+        "mountain",
+        "ancient",
+        "rugged",
+        "stress",
+        "resin",
+        "adaptation",
+        "legacy",
+        "gender",
+        "mystery"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.958Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268958-0030",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on ritual as retention strategy that reveals the next generation values provenance over prestige.\n\nUse the merchant who sold only to those who understood as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on ritual as retention strategy that reveals the next generation values provenance over prestige.\n\nUse the merchant who sold only to those who understood as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "ritual as retention strategy",
+        "revelation": "the next generation values provenance over prestige",
+        "parable": "the merchant who sold only to those who understood"
+      },
+      "tags": [
+        "behavior",
+        "business",
+        "engagement",
+        "demographics",
+        "values",
+        "change",
+        "exclusivity",
+        "education",
+        "filter"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.958Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268958-0031",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from solitary use to ceremonial practice.\n\nThe setting/context: a remote location reached with intention\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from solitary use to ceremonial practice.\n\nThe setting/context: a remote location reached with intention\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the accumulation of knowledge over time",
+        "transformation": "from solitary use to ceremonial practice",
+        "setting": "a remote location reached with intention"
+      },
+      "tags": [
+        "learning",
+        "journey",
+        "growth",
+        "ritual",
+        "intention",
+        "elevation",
+        "isolation",
+        "purpose"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.958Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268958-0032",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Forge quest.\n\nThe artifact is the the Mirror—an object of power and desire.\nA sum of resources that filters by commitment protects the threshold at the Forgotten Door.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Forge quest.\n\nThe product is the the Mirror—an object of power and desire.\nA sum of resources that filters by commitment protects the threshold at the Forgotten Door.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Mirror",
+        "journey": "Forge",
+        "threshold": "the Forgotten Door",
+        "guardian": "A sum of resources that filters by commitment"
+      },
+      "tags": [
+        "reflection",
+        "truth",
+        "self",
+        "creation",
+        "craft",
+        "trial",
+        "hidden",
+        "secret",
+        "discovery",
+        "price",
+        "sacrifice",
+        "worth"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.958Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268958-0033",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a legacy cultivar that transcends the ordinary. \n\nThe narrative should evoke sacred witness through blood-orange dusk and desert noir visual language. \n\nSpeak directly to the story collector. Present as contemplative practice.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a legacy strain that transcends the ordinary. \n\nThe narrative should evoke sacred witness through blood-orange dusk and desert noir visual language. \n\nSpeak directly to the story collector. Present as contemplative practice.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "legacy strain",
+        "mood": "sacred witness",
+        "aesthetic": "blood-orange dusk and desert noir",
+        "audience": "the story collector",
+        "ritual": "Present as contemplative practice"
+      },
+      "tags": [
+        "cannabis",
+        "heritage",
+        "landrace",
+        "spiritual",
+        "observation",
+        "presence",
+        "narrative",
+        "history",
+        "meaning",
+        "meditation",
+        "reflection"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.958Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268959-0034",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining exclusive access × democratic craft tension throughout all communications.\n\nRoot this voice in Nordic mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining exclusive access × democratic craft tension throughout all communications.\n\nRoot this voice in Nordic mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Sentinel",
+        "contrast": "exclusive access × democratic craft",
+        "origin": "Nordic"
+      },
+      "tags": [
+        "protector",
+        "vigil",
+        "boundary",
+        "access",
+        "equality",
+        "viking",
+        "runes",
+        "cold"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.959Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268959-0035",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a new moon gathering—an assembly of twelve chosen for this season.\n\nAdmission requires a direct summons. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a new moon gathering—an assembly of twelve chosen for this season.\n\nAdmission requires a direct summons. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a new moon gathering",
+        "assembly": "twelve chosen for this season",
+        "credential": "a direct summons",
+        "price": "The exchange is measured in attention, not currency."
+      },
+      "tags": [
+        "lunar",
+        "cyclic",
+        "intention",
+        "limited",
+        "selected",
+        "exclusive",
+        "invitation",
+        "rare",
+        "non-monetary",
+        "serious",
+        "commitment"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.959Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268959-0036",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Descent quest.\n\nThe artifact is the the Map—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the Forgotten Door.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Descent quest.\n\nThe product is the the Map—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the Forgotten Door.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Map",
+        "journey": "Descent",
+        "threshold": "the Forgotten Door",
+        "guardian": "A silent figure in obsidian robes"
+      },
+      "tags": [
+        "territory",
+        "exploration",
+        "claiming",
+        "underworld",
+        "shadow",
+        "return",
+        "hidden",
+        "secret",
+        "discovery",
+        "mystery",
+        "silent",
+        "watching"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.959Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268959-0037",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a fireside council—an assembly of the next generation and their mentors.\n\nAdmission requires a referral from one within. Those who gather contribute according to capacity.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a fireside council—an assembly of the next generation and their mentors.\n\nAdmission requires a referral from one within. Those who gather contribute according to capacity.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a fireside council",
+        "assembly": "the next generation and their mentors",
+        "credential": "a referral from one within",
+        "price": "Those who gather contribute according to capacity."
+      },
+      "tags": [
+        "intimate",
+        "wisdom",
+        "night",
+        "legacy",
+        "transmission",
+        "continuity",
+        "trust",
+        "network",
+        "vetting",
+        "sliding",
+        "communal",
+        "inclusive"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.959Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268959-0038",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Archivist archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Archivist archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Archivist",
+        "contrast": "violent intensity × meditative calm",
+        "origin": "North African"
+      },
+      "tags": [
+        "preservation",
+        "memory",
+        "lineage",
+        "energy",
+        "duality",
+        "desert",
+        "berber",
+        "stars"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.959Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268960-0039",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Cartographer archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Cartographer archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Cartographer",
+        "contrast": "violent intensity × meditative calm",
+        "origin": "North African"
+      },
+      "tags": [
+        "exploration",
+        "mapping",
+        "discovery",
+        "energy",
+        "duality",
+        "desert",
+        "berber",
+        "stars"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.960Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268960-0040",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: a private study with collected objects\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: a private study with collected objects\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the accumulation of knowledge over time",
+        "transformation": "from confusion to confident discernment",
+        "setting": "a private study with collected objects"
+      },
+      "tags": [
+        "learning",
+        "journey",
+        "growth",
+        "competence",
+        "clarity",
+        "mastery",
+        "intimate",
+        "personal",
+        "curated"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.960Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268960-0041",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from occasional to integrated lifestyle.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from occasional to integrated lifestyle.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the accumulation of knowledge over time",
+        "transformation": "from occasional to integrated lifestyle",
+        "setting": "the transition between day and evening"
+      },
+      "tags": [
+        "learning",
+        "journey",
+        "growth",
+        "habit",
+        "identity",
+        "normalization",
+        "temporal",
+        "liminal",
+        "daily"
+      ],
+      "intensity": "subtle",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.960Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268960-0042",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced a difficult period when this provided anchor leading to from occasional to integrated lifestyle.\n\nThe setting/context: restoration after extended demand\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced a difficult period when this provided anchor leading to from occasional to integrated lifestyle.\n\nThe setting/context: restoration after extended demand\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "a difficult period when this provided anchor",
+        "transformation": "from occasional to integrated lifestyle",
+        "setting": "restoration after extended demand"
+      },
+      "tags": [
+        "support",
+        "hardship",
+        "function",
+        "habit",
+        "identity",
+        "normalization",
+        "recovery",
+        "self-care",
+        "balance"
+      ],
+      "intensity": "subtle",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.960Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268960-0043",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for an equinox balance ritual—an assembly of collectors of rare expressions.\n\nAdmission requires membership in the circle. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for an equinox balance ritual—an assembly of collectors of rare expressions.\n\nAdmission requires membership in the circle. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "an equinox balance ritual",
+        "assembly": "collectors of rare expressions",
+        "credential": "membership in the circle",
+        "price": "The exchange is measured in attention, not currency."
+      },
+      "tags": [
+        "seasonal",
+        "equilibrium",
+        "transition",
+        "connoisseur",
+        "wealth",
+        "discerning",
+        "belonging",
+        "ongoing",
+        "identity",
+        "non-monetary",
+        "serious",
+        "commitment"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7999999999999999,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.960Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268961-0044",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking alignment on standards without compromise.\n\nEstablish credibility through recognition from institutions that matter.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking alignment on standards without compromise.\n\nEstablish credibility through recognition from institutions that matter.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "fellow practitioners of the craft",
+        "mutual": "alignment on standards without compromise",
+        "proof": "recognition from institutions that matter"
+      },
+      "tags": [
+        "peer",
+        "equal",
+        "respect",
+        "quality",
+        "shared",
+        "excellence",
+        "award",
+        "press",
+        "validation"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.961Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268961-0045",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a collector vaporizer that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and contemplative solitude through volcanic earth and polished bronze visual language. \n\nSpeak directly to the boundary crosser. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a collector vaporizer that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and contemplative solitude through volcanic earth and polished bronze visual language. \n\nSpeak directly to the boundary crosser. Position as social bonding ceremony.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "collector vaporizer",
+        "mood": "ancestral connection and contemplative solitude",
+        "aesthetic": "volcanic earth and polished bronze",
+        "audience": "the boundary crosser",
+        "ritual": "Position as social bonding ceremony"
+      },
+      "tags": [
+        "hardware",
+        "luxury",
+        "tech",
+        "explorer",
+        "risk-taker",
+        "pioneer",
+        "connection",
+        "community"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.961Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268961-0046",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on legacy versus hype in brand building that reveals the without equal in this expression products require education to appreciate.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on legacy versus hype in brand building that reveals the best products require education to appreciate.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "legacy versus hype in brand building",
+        "revelation": "the best products require education to appreciate",
+        "parable": "the monastery that outlasted empires"
+      },
+      "tags": [
+        "marketing",
+        "time",
+        "authenticity",
+        "barrier",
+        "access",
+        "learning",
+        "institution",
+        "stability"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.961Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268961-0047",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a fireside council—an assembly of those who have completed the journey.\n\nAdmission requires verification of identity and intent. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a fireside council—an assembly of those who have completed the journey.\n\nAdmission requires verification of identity and intent. The exchange is measured in attention, not currency.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a fireside council",
+        "assembly": "those who have completed the journey",
+        "credential": "verification of identity and intent",
+        "price": "The exchange is measured in attention, not currency."
+      },
+      "tags": [
+        "intimate",
+        "wisdom",
+        "night",
+        "experienced",
+        "veteran",
+        "worthy",
+        "security",
+        "serious",
+        "screening",
+        "non-monetary",
+        "commitment"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.961Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268961-0048",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Oaxacan cloud forests, where coastal salt influence shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flavor arc from bright to shadow and a terpene profile that defines its region\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Oaxacan cloud forests, where coastal salt influence shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flavor arc from bright to shadow and a terpene profile that defines its region\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Oaxacan cloud forests",
+        "element": "coastal salt influence",
+        "keeper": "a solitary cultivator on a terraced hillside",
+        "marker": "a flavor arc from bright to shadow and a terpene profile that defines its region"
+      },
+      "tags": [
+        "forest",
+        "mist",
+        "mystery",
+        "water",
+        "stress",
+        "unique",
+        "isolation",
+        "dedication",
+        "craft"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.961Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268962-0049",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Architect archetype while maintaining street grit × temple reverence tension throughout all communications.\n\nRoot this voice in Mesoamerican mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Architect archetype while maintaining street grit × temple reverence tension throughout all communications.\n\nRoot this voice in Mesoamerican mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Architect",
+        "contrast": "street grit × temple reverence",
+        "origin": "Mesoamerican"
+      },
+      "tags": [
+        "design",
+        "structure",
+        "vision",
+        "origin",
+        "elevation",
+        "aztec",
+        "maya",
+        "olmec",
+        "ancient"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.962Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268962-0050",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for an equinox balance ritual—an assembly of the curious and the committed.\n\nAdmission requires completion of the preparatory rites. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for an equinox balance ritual—an assembly of the curious and the committed.\n\nAdmission requires completion of the preparatory rites. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "an equinox balance ritual",
+        "assembly": "the curious and the committed",
+        "credential": "completion of the preparatory rites",
+        "price": "A fixed offering that reflects the value within."
+      },
+      "tags": [
+        "seasonal",
+        "equilibrium",
+        "transition",
+        "mixed",
+        "open",
+        "serious",
+        "commitment",
+        "process",
+        "readiness",
+        "monetary",
+        "clear",
+        "worth"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.962Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268962-0051",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Hunt quest.\n\nThe artifact is the the Key—an object of power and desire.\nA sum of resources that filters by commitment protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Hunt quest.\n\nThe product is the the Key—an object of power and desire.\nA sum of resources that filters by commitment protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Key",
+        "journey": "Hunt",
+        "threshold": "the City Gate",
+        "guardian": "A sum of resources that filters by commitment"
+      },
+      "tags": [
+        "access",
+        "opening",
+        "exclusive",
+        "pursuit",
+        "prey",
+        "instinct",
+        "boundary",
+        "urban",
+        "entry",
+        "price",
+        "sacrifice",
+        "worth"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.962Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268962-0052",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a apparel piece that transcends the ordinary. \n\nThe narrative should evoke deep listening through smoke and shadow and volcanic earth visual language. \n\nSpeak directly to the curious initiate. Frame as restoration protocol.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a apparel piece that transcends the ordinary. \n\nThe narrative should evoke deep listening through smoke and shadow and volcanic earth visual language. \n\nSpeak directly to the curious initiate. Frame as restoration protocol.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "apparel piece",
+        "mood": "deep listening",
+        "aesthetic": "smoke and shadow and volcanic earth",
+        "audience": "the curious initiate",
+        "ritual": "Frame as restoration protocol"
+      },
+      "tags": [
+        "fashion",
+        "streetwear",
+        "identity",
+        "social",
+        "empathy",
+        "attention",
+        "newcomer",
+        "learning",
+        "open",
+        "recovery",
+        "self-care"
+      ],
+      "intensity": "subtle",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.962Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268962-0053",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as architects of similar visions seeking shared access to circles currently separate.\n\nEstablish credibility through artifacts that speak without explanation.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as architects of similar visions seeking shared access to circles currently separate.\n\nEstablish credibility through artifacts that speak without explanation.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "architects of similar visions",
+        "mutual": "shared access to circles currently separate",
+        "proof": "artifacts that speak without explanation"
+      },
+      "tags": [
+        "builder",
+        "parallel",
+        "ambition",
+        "network",
+        "introduction",
+        "trust",
+        "product",
+        "evidence",
+        "quality"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.962Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268963-0054",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a limited release cultivar that transcends the ordinary. \n\nThe narrative should evoke confident presence through obsidian minimalism and lunar silver visual language. \n\nSpeak directly to the legacy holder. Frame this as preparation for significant work.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a limited release cultivar that transcends the ordinary. \n\nThe narrative should evoke confident presence through obsidian minimalism and lunar silver visual language. \n\nSpeak directly to the legacy holder. Frame this as preparation for significant work.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "limited release cultivar",
+        "mood": "confident presence",
+        "aesthetic": "obsidian minimalism and lunar silver",
+        "audience": "the legacy holder",
+        "ritual": "Frame this as preparation for significant work"
+      },
+      "tags": [
+        "cannabis",
+        "exclusive",
+        "flower",
+        "social",
+        "leadership",
+        "assertion",
+        "heritage",
+        "family",
+        "tradition",
+        "intention",
+        "productivity"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.963Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268963-0055",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a curated sampler that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and focused intensity through obsidian minimalism visual language. \n\nSpeak directly to the creative practitioner. Position as transition from public to private self.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a curated sampler that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and focused intensity through obsidian minimalism visual language. \n\nSpeak directly to the creative practitioner. Position as transition from public to private self.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "curated sampler",
+        "mood": "ancestral connection and focused intensity",
+        "aesthetic": "obsidian minimalism",
+        "audience": "the creative practitioner",
+        "ritual": "Position as transition from public to private self"
+      },
+      "tags": [
+        "discovery",
+        "variety",
+        "gift",
+        "visual",
+        "dark",
+        "clean",
+        "artist",
+        "maker",
+        "expressive",
+        "identity",
+        "boundary"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.963Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268963-0056",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a legacy cultivar that transcends the ordinary. \n\nThe narrative should evoke confident presence and playful exploration through jungle cathedral visual language. \n\nSpeak directly to the discerning cultivator. Frame this as preparation for significant work.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a legacy strain that transcends the ordinary. \n\nThe narrative should evoke confident presence and playful exploration through jungle cathedral visual language. \n\nSpeak directly to the discerning cultivator. Frame this as preparation for significant work.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "legacy strain",
+        "mood": "confident presence and playful exploration",
+        "aesthetic": "jungle cathedral",
+        "audience": "the discerning cultivator",
+        "ritual": "Frame this as preparation for significant work"
+      },
+      "tags": [
+        "cannabis",
+        "heritage",
+        "landrace",
+        "visual",
+        "nature",
+        "overwhelming",
+        "expert",
+        "grower",
+        "technical",
+        "intention",
+        "productivity"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.963Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268963-0057",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced a difficult period when this provided anchor leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: a creative practice already in progress\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced a difficult period when this provided anchor leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: a creative practice already in progress\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "a difficult period when this provided anchor",
+        "transformation": "from brand-agnostic to lineage-loyal",
+        "setting": "a creative practice already in progress"
+      },
+      "tags": [
+        "support",
+        "hardship",
+        "function",
+        "commitment",
+        "knowledge",
+        "identity",
+        "flow",
+        "art",
+        "enhancement"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.963Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268963-0058",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the moment of recognizing lineage in a taste leading to from occasional to integrated lifestyle.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the moment of recognizing lineage in a taste leading to from occasional to integrated lifestyle.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the moment of recognizing lineage in a taste",
+        "transformation": "from occasional to integrated lifestyle",
+        "setting": "the transition between day and evening"
+      },
+      "tags": [
+        "heritage",
+        "sensory",
+        "knowledge",
+        "habit",
+        "identity",
+        "normalization",
+        "temporal",
+        "liminal",
+        "daily"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.963Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268964-0059",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the accumulation of knowledge over time",
+        "transformation": "from confusion to confident discernment",
+        "setting": "the transition between day and evening"
+      },
+      "tags": [
+        "learning",
+        "journey",
+        "growth",
+        "competence",
+        "clarity",
+        "mastery",
+        "temporal",
+        "liminal",
+        "daily"
+      ],
+      "intensity": "subtle",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.964Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268964-0060",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a tasting of the rarest expressions—an assembly of keepers of the craft from five regions.\n\nAdmission requires membership in the circle. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a tasting of the rarest expressions—an assembly of keepers of the craft from five regions.\n\nAdmission requires membership in the circle. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a tasting of the rarest expressions",
+        "assembly": "keepers of the craft from five regions",
+        "credential": "membership in the circle",
+        "price": "A fixed offering that reflects the value within."
+      },
+      "tags": [
+        "exclusive",
+        "sensory",
+        "curated",
+        "expert",
+        "diverse",
+        "respected",
+        "belonging",
+        "ongoing",
+        "identity",
+        "monetary",
+        "clear",
+        "worth"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7999999999999999,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.964Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268964-0061",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for an initiation ceremony—an assembly of the next generation and their mentors.\n\nAdmission requires completion of the preparatory rites. \n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for an initiation ceremony—an assembly of the next generation and their mentors.\n\nAdmission requires completion of the preparatory rites. \n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "an initiation ceremony",
+        "assembly": "the next generation and their mentors",
+        "credential": "completion of the preparatory rites",
+        "price": ""
+      },
+      "tags": [
+        "passage",
+        "exclusive",
+        "transformative",
+        "legacy",
+        "transmission",
+        "continuity",
+        "commitment",
+        "process",
+        "readiness",
+        "omitted",
+        "implied",
+        "mysterious"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.964Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268964-0062",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in Mediterranean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining violent intensity × meditative calm tension throughout all communications.\n\nRoot this voice in Mediterranean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Sentinel",
+        "contrast": "violent intensity × meditative calm",
+        "origin": "Mediterranean"
+      },
+      "tags": [
+        "protector",
+        "vigil",
+        "boundary",
+        "energy",
+        "duality",
+        "olive",
+        "wine",
+        "ancient"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.964Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268964-0063",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for an equinox balance ritual—an assembly of those who have completed the journey.\n\nAdmission requires verification of identity and intent. No exchange is requested—value flows differently here.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for an equinox balance ritual—an assembly of those who have completed the journey.\n\nAdmission requires verification of identity and intent. No exchange is requested—value flows differently here.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "an equinox balance ritual",
+        "assembly": "those who have completed the journey",
+        "credential": "verification of identity and intent",
+        "price": "No exchange is requested—value flows differently here."
+      },
+      "tags": [
+        "seasonal",
+        "equilibrium",
+        "transition",
+        "experienced",
+        "veteran",
+        "worthy",
+        "security",
+        "serious",
+        "screening",
+        "gift",
+        "alternative",
+        "community"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268965-0064",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking preservation of knowledge through distribution.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking preservation of knowledge through distribution.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "fellow practitioners of the craft",
+        "mutual": "preservation of knowledge through distribution",
+        "proof": "the duration and consistency of our practice"
+      },
+      "tags": [
+        "peer",
+        "equal",
+        "respect",
+        "legacy",
+        "education",
+        "continuity",
+        "time",
+        "survival",
+        "commitment"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268965-0065",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where ancient river sediment shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flavor arc from bright to shadow and a finish that lingers like incense\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where ancient river sediment shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flavor arc from bright to shadow and a finish that lingers like incense\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Afghan Hindu Kush",
+        "element": "ancient river sediment",
+        "keeper": "a monastery that has grown for centuries",
+        "marker": "a flavor arc from bright to shadow and a finish that lingers like incense"
+      },
+      "tags": [
+        "mountain",
+        "ancient",
+        "rugged",
+        "water",
+        "earth",
+        "history",
+        "spiritual",
+        "time",
+        "dedication"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268965-0066",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Witness archetype while maintaining immaculate presentation × raw materials tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Witness archetype while maintaining immaculate presentation × raw materials tension throughout all communications.\n\nRoot this voice in North African mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Witness",
+        "contrast": "immaculate presentation × raw materials",
+        "origin": "North African"
+      },
+      "tags": [
+        "observation",
+        "truth",
+        "presence",
+        "finish",
+        "origin",
+        "desert",
+        "berber",
+        "stars"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268965-0067",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced transition from casual to intentional use leading to from seeking effects to appreciating craft.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced transition from casual to intentional use leading to from seeking effects to appreciating craft.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "transition from casual to intentional use",
+        "transformation": "from seeking effects to appreciating craft",
+        "setting": "the transition between day and evening"
+      },
+      "tags": [
+        "evolution",
+        "mindfulness",
+        "maturity",
+        "education",
+        "shift",
+        "temporal",
+        "liminal",
+        "daily"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268965-0068",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Keeper of Keys archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Keeper of Keys archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Andean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Keeper of Keys",
+        "contrast": "ancient technique × modern precision",
+        "origin": "Andean"
+      },
+      "tags": [
+        "access",
+        "gatekeeping",
+        "trust",
+        "time",
+        "technology",
+        "inca",
+        "mountain",
+        "elevation"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.965Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268966-0069",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe artifact is the the Flame—an object of power and desire.\nA spoken password in a dead language protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe product is the the Flame—an object of power and desire.\nA spoken password in a dead language protects the threshold at the City Gate.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Flame",
+        "journey": "Pilgrimage",
+        "threshold": "the City Gate",
+        "guardian": "A spoken password in a dead language"
+      },
+      "tags": [
+        "transformation",
+        "light",
+        "danger",
+        "sacred",
+        "travel",
+        "boundary",
+        "urban",
+        "entry",
+        "voice",
+        "ancient",
+        "secret"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.966Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268966-0070",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on exclusivity without elitism that reveals sustainability and exclusivity are compatible.\n\nUse the cartographer who mapped the unprofitable as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on exclusivity without elitism that reveals sustainability and exclusivity are compatible.\n\nUse the cartographer who mapped the unprofitable as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "exclusivity without elitism",
+        "revelation": "sustainability and exclusivity are compatible",
+        "parable": "the cartographer who mapped the unprofitable"
+      },
+      "tags": [
+        "access",
+        "culture",
+        "positioning",
+        "ethics",
+        "luxury",
+        "balance",
+        "exploration",
+        "value",
+        "different"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.966Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268966-0071",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking collective defense of craft against commodification.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as fellow practitioners of the craft seeking collective defense of craft against commodification.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "fellow practitioners of the craft",
+        "mutual": "collective defense of craft against commodification",
+        "proof": "the duration and consistency of our practice"
+      },
+      "tags": [
+        "peer",
+        "equal",
+        "respect",
+        "protection",
+        "values",
+        "mission",
+        "time",
+        "survival",
+        "commitment"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.966Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268966-0072",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the disappearance of cultivar knowledge that reveals the without equal in this expression products require education to appreciate.\n\nUse the blacksmith who refused to automate as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the disappearance of cultivar knowledge that reveals the best products require education to appreciate.\n\nUse the blacksmith who refused to automate as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the disappearance of cultivar knowledge",
+        "revelation": "the best products require education to appreciate",
+        "parable": "the blacksmith who refused to automate"
+      },
+      "tags": [
+        "education",
+        "loss",
+        "urgency",
+        "barrier",
+        "access",
+        "learning",
+        "craft",
+        "technology",
+        "choice"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.966Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268966-0073",
+      "template": "brand-voice",
+      "prompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Mediterranean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "rawPrompt": "Define a brand voice that embodies the The Sentinel archetype while maintaining ancient technique × modern precision tension throughout all communications.\n\nRoot this voice in Mediterranean mythology and symbolism.\n\nProvide:\n- 3 voice principles (DO)\n- 3 voice prohibitions (DON'T)\n- 5 signature phrases\n- 1 paragraph example copy",
+      "categories": {
+        "archetype": "The Sentinel",
+        "contrast": "ancient technique × modern precision",
+        "origin": "Mediterranean"
+      },
+      "tags": [
+        "protector",
+        "vigil",
+        "boundary",
+        "time",
+        "technology",
+        "olive",
+        "wine",
+        "ancient"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.966Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268967-0074",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where thin [STYLE:high]-altitude air shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and structural density that speaks to cure and a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Afghan Hindu Kush, where thin high-altitude air shaped its character.\n\na solitary cultivator on a terraced hillside has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and structural density that speaks to cure and a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Afghan Hindu Kush",
+        "element": "thin high-altitude air",
+        "keeper": "a solitary cultivator on a terraced hillside",
+        "marker": "silver trichomes against deep purple and structural density that speaks to cure and a genetic lineage traced to pre-prohibition"
+      },
+      "tags": [
+        "mountain",
+        "ancient",
+        "rugged",
+        "air",
+        "stress",
+        "character",
+        "isolation",
+        "dedication",
+        "craft"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"high\"",
+            "location": "unknown",
+            "suggestion": "elevated"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.967Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268967-0075",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Emerald Triangle, where granite mountain substrate shaped its character.\n\na family whose name is synonymous with the region has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Emerald Triangle, where granite mountain substrate shaped its character.\n\na family whose name is synonymous with the region has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a genetic lineage traced to pre-prohibition\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Emerald Triangle",
+        "element": "granite mountain substrate",
+        "keeper": "a family whose name is synonymous with the region",
+        "marker": "a genetic lineage traced to pre-prohibition"
+      },
+      "tags": [
+        "california",
+        "legacy",
+        "fertile",
+        "earth",
+        "drainage",
+        "mineral",
+        "family",
+        "reputation",
+        "history",
+        "authentic",
+        "rare"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.967Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268967-0076",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced sharing with someone who finally understood leading to from confusion to confident discernment.\n\nThe setting/context: a gathering of trusted practitioners\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced sharing with someone who finally understood leading to from confusion to confident discernment.\n\nThe setting/context: a gathering of trusted practitioners\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "sharing with someone who finally understood",
+        "transformation": "from confusion to confident discernment",
+        "setting": "a gathering of trusted practitioners"
+      },
+      "tags": [
+        "connection",
+        "recognition",
+        "social",
+        "competence",
+        "clarity",
+        "mastery",
+        "expert",
+        "circle"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.967Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268967-0077",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Return quest.\n\nThe artifact is the the Compass—an object of power and desire.\nAn ancient lock requiring specific knowledge protects the threshold at the Midnight Hour.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Return quest.\n\nThe product is the the Compass—an object of power and desire.\nAn ancient lock requiring specific knowledge protects the threshold at the Midnight Hour.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Compass",
+        "journey": "Return",
+        "threshold": "the Midnight Hour",
+        "guardian": "An ancient lock requiring specific knowledge"
+      },
+      "tags": [
+        "direction",
+        "navigation",
+        "finding",
+        "homecoming",
+        "wisdom",
+        "integration",
+        "time",
+        "liminal",
+        "magic",
+        "puzzle",
+        "key",
+        "test"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.967Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268968-0078",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the future of craft in an automated world that reveals sustainability and exclusivity are compatible.\n\nUse the merchant who sold only to those who understood as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the future of craft in an automated world that reveals sustainability and exclusivity are compatible.\n\nUse the merchant who sold only to those who understood as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the future of craft in an automated world",
+        "revelation": "sustainability and exclusivity are compatible",
+        "parable": "the merchant who sold only to those who understood"
+      },
+      "tags": [
+        "technology",
+        "craft",
+        "tension",
+        "ethics",
+        "luxury",
+        "balance",
+        "exclusivity",
+        "education",
+        "filter"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.968Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268968-0079",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking shared access to circles currently separate.\n\nEstablish credibility through a track record visible to those who know where to look.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as descendants of common lineage seeking shared access to circles currently separate.\n\nEstablish credibility through a track record visible to those who know where to look.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "descendants of common lineage",
+        "mutual": "shared access to circles currently separate",
+        "proof": "a track record visible to those who know where to look"
+      },
+      "tags": [
+        "heritage",
+        "origin",
+        "connection",
+        "network",
+        "introduction",
+        "trust",
+        "reputation",
+        "industry",
+        "subtle"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.968Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268968-0080",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe artifact is the the Flame—an object of power and desire.\nA question that must be answered truly protects the threshold at the Midnight Hour.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Pilgrimage quest.\n\nThe product is the the Flame—an object of power and desire.\nA question that must be answered truly protects the threshold at the Midnight Hour.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Flame",
+        "journey": "Pilgrimage",
+        "threshold": "the Midnight Hour",
+        "guardian": "A question that must be answered truly"
+      },
+      "tags": [
+        "transformation",
+        "light",
+        "danger",
+        "sacred",
+        "travel",
+        "time",
+        "liminal",
+        "magic",
+        "truth",
+        "test",
+        "character"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.968Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268981-0081",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the first encounter with true quality leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the first encounter with true quality leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: the transition between day and evening\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the first encounter with true quality",
+        "transformation": "from brand-agnostic to lineage-loyal",
+        "setting": "the transition between day and evening"
+      },
+      "tags": [
+        "discovery",
+        "comparison",
+        "awakening",
+        "commitment",
+        "knowledge",
+        "identity",
+        "temporal",
+        "liminal",
+        "daily"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.981Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268982-0082",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a membership artifact that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and creative emergence through lunar silver and marble veining visual language. \n\nSpeak directly to the social architect. Describe as mark of accomplished day.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a membership artifact that transcends the ordinary. \n\nThe narrative should evoke ancestral connection and creative emergence through lunar silver and marble veining visual language. \n\nSpeak directly to the social architect. Describe as mark of accomplished day.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "membership artifact",
+        "mood": "ancestral connection and creative emergence",
+        "aesthetic": "lunar silver and marble veining",
+        "audience": "the social architect",
+        "ritual": "Describe as mark of accomplished day"
+      },
+      "tags": [
+        "access",
+        "exclusive",
+        "identity",
+        "host",
+        "gatherer",
+        "connector",
+        "reward",
+        "completion"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.982Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268982-0083",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as architects of similar visions seeking expanded territory for both traditions.\n\nEstablish credibility through a track record visible to those who know where to look.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as architects of similar visions seeking expanded territory for both traditions.\n\nEstablish credibility through a track record visible to those who know where to look.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "architects of similar visions",
+        "mutual": "expanded territory for both traditions",
+        "proof": "a track record visible to those who know where to look"
+      },
+      "tags": [
+        "builder",
+        "parallel",
+        "ambition",
+        "growth",
+        "market",
+        "expansion",
+        "reputation",
+        "industry",
+        "subtle"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.982Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268983-0084",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Nepalese valleys, where persistent mountain mist shaped its character.\n\na guild that tests each generation has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and silver trichomes against deep purple and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Nepalese valleys, where persistent mountain mist shaped its character.\n\na guild that tests each generation has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and silver trichomes against deep purple and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Nepalese valleys",
+        "element": "persistent mountain mist",
+        "keeper": "a guild that tests each generation",
+        "marker": "a terpene profile that defines its region and silver trichomes against deep purple and a reputation that precedes it across borders"
+      },
+      "tags": [
+        "himalaya",
+        "spiritual",
+        "isolated",
+        "water",
+        "air",
+        "cool",
+        "hierarchy",
+        "merit",
+        "tradition"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.983Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268983-0085",
+      "template": "launch-campaign",
+      "prompt": "Craft a launch campaign narrative structured as a Descent quest.\n\nThe artifact is the the Mirror—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the Crossroads.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "rawPrompt": "Craft a launch campaign narrative structured as a Descent quest.\n\nThe product is the the Mirror—an object of power and desire.\nA silent figure in obsidian robes protects the threshold at the Crossroads.\n\nStructure:\n- Teaser (The Prophecy)\n- Reveal (The Unveiling)\n- Ritual (The Initiation)\n- Legacy (The Covenant)\n\nEach phase: headline + 2 sentences max.",
+      "categories": {
+        "artifact": "the Mirror",
+        "journey": "Descent",
+        "threshold": "the Crossroads",
+        "guardian": "A silent figure in obsidian robes"
+      },
+      "tags": [
+        "reflection",
+        "truth",
+        "self",
+        "underworld",
+        "shadow",
+        "return",
+        "choice",
+        "meeting",
+        "decision",
+        "mystery",
+        "silent",
+        "watching"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.983Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268983-0086",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a collector vaporizer that transcends the ordinary. \n\nThe narrative should evoke focused intensity through desert noir and lunar silver visual language. \n\nSpeak directly to the quality obsessive. Present as communion with lineage.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a collector vaporizer that transcends the ordinary. \n\nThe narrative should evoke focused intensity through desert noir and lunar silver visual language. \n\nSpeak directly to the quality obsessive. Present as communion with lineage.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "collector vaporizer",
+        "mood": "focused intensity",
+        "aesthetic": "desert noir and lunar silver",
+        "audience": "the quality obsessive",
+        "ritual": "Present as communion with lineage"
+      },
+      "tags": [
+        "hardware",
+        "luxury",
+        "tech",
+        "mental",
+        "work",
+        "clarity",
+        "perfectionist",
+        "details",
+        "discerning",
+        "heritage",
+        "ancestors"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.983Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268984-0087",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on the sensory education deficit that reveals what appears as tradition is often recent invention.\n\nUse the architect who built for the fifth generation as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on the sensory education deficit that reveals what appears as tradition is often recent invention.\n\nUse the architect who built for the fifth generation as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "the sensory education deficit",
+        "revelation": "what appears as tradition is often recent invention",
+        "parable": "the architect who built for the fifth generation"
+      },
+      "tags": [
+        "experience",
+        "learning",
+        "gap",
+        "history",
+        "myth",
+        "reality",
+        "longterm",
+        "design",
+        "legacy"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.984Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268984-0088",
+      "template": "ritual-summons",
+      "prompt": "Compose a summons for a solstice observance—an assembly of the curious and the committed.\n\nAdmission requires possession of the seasonal token. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "rawPrompt": "Compose a summons for a solstice observance—an assembly of the curious and the committed.\n\nAdmission requires possession of the seasonal token. A fixed offering that reflects the value within.\n\nStructure:\n- Header: Single commanding phrase\n- Body: 2 sentences establishing stakes and exclusivity\n- CTA: Imperative, no urgency, no countdown\n\nAvoid: exclamation points, ALL CAPS, emojis, \"Don't miss out!\"",
+      "categories": {
+        "occasion": "a solstice observance",
+        "assembly": "the curious and the committed",
+        "credential": "possession of the seasonal token",
+        "price": "A fixed offering that reflects the value within."
+      },
+      "tags": [
+        "seasonal",
+        "astronomical",
+        "ancient",
+        "mixed",
+        "open",
+        "serious",
+        "object",
+        "proof",
+        "access",
+        "monetary",
+        "clear",
+        "worth"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.7,
+        "violations": [
+          {
+            "type": "forbidden_phrase",
+            "severity": "high",
+            "message": "Found forbidden phrase: \"don't miss out\"",
+            "location": "inline",
+            "suggestion": "Rewrite with direct, specific language"
+          },
+          {
+            "type": "structural",
+            "severity": "medium",
+            "message": "1 exclamation point(s) found",
+            "location": "inline",
+            "suggestion": "Replace with periods for measured tone"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.984Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268984-0089",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as keepers of adjacent territories seeking alignment on standards without compromise.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as keepers of adjacent territories seeking alignment on standards without compromise.\n\nEstablish credibility through specific results for named allies.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "keepers of adjacent territories",
+        "mutual": "alignment on standards without compromise",
+        "proof": "specific results for named allies"
+      },
+      "tags": [
+        "neighbor",
+        "border",
+        "connection",
+        "quality",
+        "shared",
+        "excellence",
+        "case",
+        "referral",
+        "concrete"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.984Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268984-0090",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Colombian mountains, where volcanic mineral deposits shaped its character.\n\nan elder who speaks only in growing seasons has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a nose of diesel and ancient forest and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Colombian mountains, where volcanic mineral deposits shaped its character.\n\nan elder who speaks only in growing seasons has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a nose of diesel and ancient forest and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Colombian mountains",
+        "element": "volcanic mineral deposits",
+        "keeper": "an elder who speaks only in growing seasons",
+        "marker": "a nose of diesel and ancient forest and a reputation that precedes it across borders"
+      },
+      "tags": [
+        "elevation",
+        "equatorial",
+        "rich",
+        "earth",
+        "fire",
+        "time",
+        "wisdom",
+        "quiet"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.984Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268985-0091",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the moment of recognizing lineage in a taste leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: a private study with collected objects\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the moment of recognizing lineage in a taste leading to from brand-agnostic to lineage-loyal.\n\nThe setting/context: a private study with collected objects\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the moment of recognizing lineage in a taste",
+        "transformation": "from brand-agnostic to lineage-loyal",
+        "setting": "a private study with collected objects"
+      },
+      "tags": [
+        "heritage",
+        "sensory",
+        "knowledge",
+        "commitment",
+        "identity",
+        "intimate",
+        "personal",
+        "curated"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.985Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268985-0092",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Sierra Madre highlands, where persistent mountain mist shaped its character.\n\na guild that tests each generation has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and a genetic lineage traced to pre-prohibition and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Sierra Madre highlands, where persistent mountain mist shaped its character.\n\na guild that tests each generation has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a terpene profile that defines its region and a genetic lineage traced to pre-prohibition and a reputation that precedes it across borders\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Sierra Madre highlands",
+        "element": "persistent mountain mist",
+        "keeper": "a guild that tests each generation",
+        "marker": "a terpene profile that defines its region and a genetic lineage traced to pre-prohibition and a reputation that precedes it across borders"
+      },
+      "tags": [
+        "mountain",
+        "mexico",
+        "elevation",
+        "water",
+        "air",
+        "cool",
+        "hierarchy",
+        "merit",
+        "tradition"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.985Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268985-0093",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Moroccan Rif, where volcanic mineral deposits shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flowering time that tests patience and structural density that speaks to cure\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Moroccan Rif, where volcanic mineral deposits shaped its character.\n\na monastery that has grown for centuries has safeguarded this lineage for generations.\n\nKey characteristics to weave in: a flowering time that tests patience and structural density that speaks to cure\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Moroccan Rif",
+        "element": "volcanic mineral deposits",
+        "keeper": "a monastery that has grown for centuries",
+        "marker": "a flowering time that tests patience and structural density that speaks to cure"
+      },
+      "tags": [
+        "north",
+        "hashish",
+        "traditional",
+        "earth",
+        "fire",
+        "rich",
+        "spiritual",
+        "time",
+        "dedication"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.985Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268985-0094",
+      "template": "product-desc",
+      "prompt": "Create a artifact description for a legacy cultivar that transcends the ordinary. \n\nThe narrative should evoke sensory heightening through weathered leather visual language. \n\nSpeak directly to the boundary crosser. Describe as sensory calibration ritual.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "rawPrompt": "Create a product description for a legacy strain that transcends the ordinary. \n\nThe narrative should evoke sensory heightening through weathered leather visual language. \n\nSpeak directly to the boundary crosser. Describe as sensory calibration ritual.\n\nLength: 3-4 sentences. No generic superlatives. No exclamation points.",
+      "categories": {
+        "productType": "legacy strain",
+        "mood": "sensory heightening",
+        "aesthetic": "weathered leather",
+        "audience": "the boundary crosser",
+        "ritual": "Describe as sensory calibration ritual"
+      },
+      "tags": [
+        "cannabis",
+        "heritage",
+        "landrace",
+        "physical",
+        "perception",
+        "awareness",
+        "tactile",
+        "age",
+        "patina",
+        "explorer",
+        "risk-taker",
+        "pioneer"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.985Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268986-0095",
+      "template": "thought-leadership",
+      "prompt": "Write a thought leadership piece on terroir as a defensible moat that reveals sustainability and exclusivity are compatible.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "rawPrompt": "Write a thought leadership piece on terroir as a defensible moat that reveals sustainability and exclusivity are compatible.\n\nUse the monastery that outlasted empires as the structural framework.\n\nRequirements:\n- Opening: Contrarian or unexpected claim\n- Middle: 3 insights, each with concrete example\n- Close: Open-ended question that implies continuation\n- Tone: Authoritative but not arrogant, mysterious but not cryptic\n\nLength: 300-400 words. No bullet lists.",
+      "categories": {
+        "domain": "terroir as a defensible moat",
+        "revelation": "sustainability and exclusivity are compatible",
+        "parable": "the monastery that outlasted empires"
+      },
+      "tags": [
+        "place",
+        "business",
+        "strategy",
+        "ethics",
+        "luxury",
+        "balance",
+        "institution",
+        "time",
+        "stability"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.986Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268986-0096",
+      "template": "partnership-outreach",
+      "prompt": "Draft a partnership approach positioning the sender as those who serve the same audience differently seeking collective defense of craft against commodification.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not [STYLE:just] yes/no",
+      "rawPrompt": "Draft a partnership approach positioning the sender as those who serve the same audience differently seeking collective defense of craft against commodification.\n\nEstablish credibility through the duration and consistency of our practice.\n\nConstraints:\n- 4 sentences maximum\n- No benefit lists\n- No \"I think\" or \"We believe\"\n- One concrete, specific offer\n- Close with question that demands thought, not just yes/no",
+      "categories": {
+        "relation": "those who serve the same audience differently",
+        "mutual": "collective defense of craft against commodification",
+        "proof": "the duration and consistency of our practice"
+      },
+      "tags": [
+        "complementary",
+        "market",
+        "shared",
+        "protection",
+        "values",
+        "mission",
+        "time",
+        "survival",
+        "commitment"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 0.8,
+        "violations": [
+          {
+            "type": "forbidden_word",
+            "severity": "critical",
+            "message": "Found forbidden word: \"just\"",
+            "location": "unknown",
+            "suggestion": "revise for brand alignment"
+          },
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": false
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.986Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268986-0097",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Colombian mountains, where diurnal temperature swings shaped its character.\n\na network of keepers sharing cuttings in shadow has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Colombian mountains, where diurnal temperature swings shaped its character.\n\na network of keepers sharing cuttings in shadow has safeguarded this lineage for generations.\n\nKey characteristics to weave in: silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Colombian mountains",
+        "element": "diurnal temperature swings",
+        "keeper": "a network of keepers sharing cuttings in shadow",
+        "marker": "silver trichomes against deep purple and a finish that lingers like incense and a flavor arc from bright to shadow"
+      },
+      "tags": [
+        "elevation",
+        "equatorial",
+        "rich",
+        "stress",
+        "resin",
+        "adaptation",
+        "underground",
+        "network",
+        "preservation"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.986Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268986-0098",
+      "template": "testimonial-framework",
+      "prompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: preparation for significant conversation\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "rawPrompt": "Create a testimonial prompt framework for customers who experienced the accumulation of knowledge over time leading to from confusion to confident discernment.\n\nThe setting/context: preparation for significant conversation\n\nProvide:\n1. One guiding question that elicits sensory detail\n2. One guiding question that draws out emotional shift\n3. One guiding question that connects to identity/self-concept\n4. A 2-sentence example response in the target voice\n\nNever ask \"How did it make you feel?\" or \"Would you recommend us?\"",
+      "categories": {
+        "experience": "the accumulation of knowledge over time",
+        "transformation": "from confusion to confident discernment",
+        "setting": "preparation for significant conversation"
+      },
+      "tags": [
+        "learning",
+        "journey",
+        "growth",
+        "competence",
+        "clarity",
+        "mastery",
+        "social",
+        "serious",
+        "bridge"
+      ],
+      "intensity": "moderate",
+      "brandValidation": {
+        "score": 0.9,
+        "violations": [
+          {
+            "type": "vocabulary",
+            "severity": "low",
+            "message": "Low brand vocabulary density",
+            "location": "global",
+            "suggestion": "Incorporate preferred brand terms"
+          }
+        ],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.986Z",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "id": "pf-1770006268986-0099",
+      "template": "strain-origin",
+      "prompt": "Tell the origin story of a cultivar from the Emerald Triangle, where volcanic mineral deposits shaped its character.\n\na woman who inherited seeds and silence has safeguarded this lineage for generations.\n\nKey characteristics to weave in: effects that arrive in distinct waves\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "rawPrompt": "Tell the origin story of a cultivar from the Emerald Triangle, where volcanic mineral deposits shaped its character.\n\na woman who inherited seeds and silence has safeguarded this lineage for generations.\n\nKey characteristics to weave in: effects that arrive in distinct waves\n\nFormat: \n- Opening: Geographic + elemental invocation (1 sentence)\n- Body: The keeper's covenant with the plant (2-3 sentences)\n- Close: Signature experience (1 sentence)\n\nNever mention THC percentages or medical claims.",
+      "categories": {
+        "region": "the Emerald Triangle",
+        "element": "volcanic mineral deposits",
+        "keeper": "a woman who inherited seeds and silence",
+        "marker": "effects that arrive in distinct waves"
+      },
+      "tags": [
+        "california",
+        "legacy",
+        "fertile",
+        "earth",
+        "fire",
+        "rich",
+        "gender",
+        "mystery",
+        "experience",
+        "temporal",
+        "unique"
+      ],
+      "intensity": "intense",
+      "brandValidation": {
+        "score": 1,
+        "violations": [],
+        "aligned": true
+      },
+      "metadata": {
+        "generatedAt": "2026-02-02T04:24:28.986Z",
+        "version": "1.2.0"
+      }
+    }
+  ]
+}

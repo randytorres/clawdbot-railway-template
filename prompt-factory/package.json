@@ -1,0 +1,27 @@
+{
+  "name": "prompt-factory",
+  "version": "1.2.0",
+  "description": "AI Prompt Factory - Combinatorial prompt generation with brand style injection",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "generate": "ts-node src/cli.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "prompt",
+    "ai",
+    "llm",
+    "generation",
+    "combinatorial"
+  ],
+  "author": "Loki × Friday",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
